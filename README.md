@@ -1,8 +1,11 @@
-# React + Vite
+# Client set up
+The client side or frontend is built using React. Follow the steps below to get the client up and running.
+1. In the root directory
+2. `npm install` // Only required first time you run the project
+3. `npm run dev`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Server set up
+The server or backend code uses Node.js. Follow the steps below to get the server up and running.
+1. In the root directory, `cd backend`
+3. `npm install` // Only required first time you run the project
+4. `npm start`
