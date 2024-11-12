@@ -14,7 +14,6 @@ function App() {
       try {
         const response = await axios.get("http://localhost:3002/data");
         setData(response.data);
-        setError(null);
       } catch (error) {
         console.error("Error fetching data:", error);
         setError("Error fetching data");
